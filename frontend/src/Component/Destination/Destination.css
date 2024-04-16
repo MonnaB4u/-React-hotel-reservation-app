@@ -1,0 +1,30 @@
+.Destination{
+    width: 100%;
+    width: 1024px;
+}
+
+.regionGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+.destiList{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+ 
+   
+}
+.destiList p{
+    padding:.4rem .7rem; 
+    
+}
+
+.destiListactive{
+    border: 1px solid #006ce4;;
+    border-radius: 90px;
+    background: rgb(237, 245, 252);
+    color: #006ce4;
+    box-shadow: 0px 0px 6px 0px  #006ce4;
+    
+}

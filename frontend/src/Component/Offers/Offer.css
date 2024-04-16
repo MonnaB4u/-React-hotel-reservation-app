@@ -1,0 +1,46 @@
+.offers {
+    width: 100%;
+
+}
+
+.offersFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.offerborder {
+    padding: .7rem;
+
+
+}
+
+.offersbanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 10rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px rgb(199, 199, 199);
+
+}
+
+.offersbanner img {
+    width: 8rem;
+    padding: .5rem;
+
+}
+.offerbuton{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    
+}
